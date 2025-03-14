@@ -1,6 +1,7 @@
 name: Terraform PR Plan
 
 on:
+  push:
   pull_request_target:
     branches: [ "main" ]
 
