@@ -14,6 +14,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
+          pwd;
           echo "Building Docker image on self-hosted runner..."
           docker build -t exam/demoapp:${{ github.sha }} .
       
